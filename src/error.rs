@@ -1,9 +1,13 @@
 #[derive(Debug, PartialEq)]
 #[allow(unused)]
 pub enum Error {
+    /// The provided input base is outside of the range 2 though 16.
     InputBaseInvalid,
+    /// The provided output base is outside of the range 2 though 16.
     OutputBaseInvalid,
+    /// The character `ch` is not vailid within the given base (`base`).
     CharacterInvalidForBase { ch: char, base: u8 },
+    /// The number `int` is not valid within the given base (`base`).
     IntegerInvalidForBase { int: u8, base: u8 },
 }
 

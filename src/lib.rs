@@ -1,6 +1,6 @@
 //! This crate provides the following functions:
 //!
-//! * **to_number_from_base** - Converts string of given base to an integer.
+//! * **to_number_from_base** - Converts a string of given base to an integer.
 //! * **to_base_from_number** - Converts a number to a string of given base.
 //! * **convert_to_base** - Converts a string from a given base directly to a string of a
 //!   nominated base.
